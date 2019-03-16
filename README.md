@@ -141,6 +141,8 @@ function diffChildren (oldChildren, newChildren, index, patches, currentPatch) {
 ##### 深度优先遍历，记录差异
 在实际的代码中，会对新旧两棵树进行一个深度优先的遍历，这样每个节点都会有一个唯一的标记：`0`, `1`....
 
+![](http://ww1.sinaimg.cn/large/b44313e1ly1g14p3nbxfaj20bd09jt9u.jpg)
+
 在深度优先遍历的时候，每遍历到一个节点就把该节点和新的的树进行对比。如果有差异的话就记录到一个对象里面。
 ##### 差异类型
 * 替换掉原来的节点，例如把上面的div换成了section
