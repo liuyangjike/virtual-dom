@@ -80,16 +80,10 @@ function reorderChildren (node, moves) {
       }
     }
   })
-
-  if (moves.length >5) {
-    console.log(moves)
-  }
-
   _.each(moves, function (move) {
     var index = move.index
     if (move.type === 0) {  // remove item
       if (staticNodeList[index] === node.childNodes[index]) {
-        console.log(node.childNodes, index)
         node.removeChild(node.childNodes[index])
       }
       staticNodeList.splice(index, 1)

@@ -59,9 +59,6 @@ function dfsWalk (oldNode, newNode, index, patches) {
 // 遍历子节点
 function diffChildren (oldChildren, newChildren, index, patches, currentPatch) {
   var diffs = listDiff(oldChildren, newChildren, 'key')
-  if (diffs.moves.length) {
-    console.log(diffs.moves, 'move')
-  }
   newChildren = diffs.children
   if (diffs.moves.length) {
     var reorderPatch = {type: patch.REORDER, moves: diffs.moves}

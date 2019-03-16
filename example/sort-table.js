@@ -13,6 +13,8 @@ var list = [
   {username: 'Jerry', age: 12, reputation: 200, uid: 'user1'},
   {username: 'Pony', age: 33, reputation: 3000, uid: 'user4'},
   {username: 'Lucy', age: 21, reputation: 99, uid: 'user2'},
+  {username: 'Lucy', age: 56, reputation: 123, uid: 'user6'},
+  {username: 'Lucy', age: 61, reputation: 123, uid: 'user7'},
   {username: 'Tomy', age: 20, reputation: 20, uid: 'user3'},
   {username: 'Funky', age: 49, reputation: 521, uid: 'user5'},
 ]
