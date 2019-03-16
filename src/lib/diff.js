@@ -2,11 +2,6 @@ var  _ = require('./util')
 var patch =  require('./patch')
 var listDiff = require('./diffList').diff
 
-// var oldList = [{id: "p", key:'1111'}, {id: "ul", key: '2222'}, {id: 'div', key: '3333'}]
-// var newList = [ {id: "ul", key: '2222', children: [1, 2]}, {id: "p", key: '1111'} ,{id: 'div', key: '4444'},  {id: 'div', key: '3333', ch: []}]
-
-// console.log(listDiff(oldList, newList, 'key'))
-
 // diff函数  对比两棵树
 function diff (oldTree, newTree) {
   var index = 0  // 当前节点的标志0, 1, 2 ....

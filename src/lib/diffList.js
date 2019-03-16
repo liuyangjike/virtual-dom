@@ -1,3 +1,4 @@
+
 function diff (oldList, newList, key) {
   var oldMap = makeKeyIndexAndFree(oldList, key)
   var newMap = makeKeyIndexAndFree(newList, key)
